@@ -61,3 +61,4 @@
             + [] Ensure mobile responsiveness
             + [] Add basic SEO elements
 
+
