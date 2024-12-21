@@ -2,7 +2,7 @@
     a. HTML 3-4 days
         Semantic elements:
             + [x] Create a properly structured webpage using header, main, nav, footer
-                + [] review nav
+                + [x] review nav
             + [x] Use article and section elements appropriately
             + [] Practice with figure, figcaption, and aside
         Forms and validation: 

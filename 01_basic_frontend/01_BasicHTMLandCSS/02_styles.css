@@ -53,18 +53,67 @@ h1 {
   background-color: var(--secondary-color);
 }
 
+.container {
+  display: flex;
+}
+
+.div1 {
+  flex: 3;
+}
+
+.div2 {
+  width: 300px;
+  text-align: center;
+}
+
+.div2 img {
+  height: 250px;
+}
+
 .button1:hover {
   color: var(--primary-color);
   
 
 }
 .button1:active {
-  color: var(--secondary-color);
+  background-color: gray;
+  color: white;
 }
 
 
-.link-repo:visited {
-  color: var(--secondary-color);
+.link-repo {
+  display: inline-block;
+  width: auto;
+  margin: 10px 0px 10px 0px;
+  color: var(--primary-color);
+
+}
+
+.link-repo:hover {
+  color: blue; 
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* prevent stretching */
+}
+
+.button1 {
+  display: inline-block;
+  width: auto;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  border-color:aqua;
+  border-width: 2px;
+  border-radius: 5%;
+}
+
+.text {
+  width: 100%;
+  font-size: 20px;
 }
 
 
