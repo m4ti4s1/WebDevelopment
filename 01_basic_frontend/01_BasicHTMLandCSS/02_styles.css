@@ -1,0 +1,71 @@
+/* SELECTORS
+HTML elements
+  h1 {}
+  div {}
+  body {}
+
+Class 
+  .class1 {}
+  .class2 {}
+
+ID Selector
+  #my-id {}
+  #yours-id {}
+
+Universal Selector
+  * {}
+
+Descendant Selector
+  div p {}  Targets p inside divs
+
+*/ 
+
+
+/* Properties
+  font-family: 'Hack Nerd Font';
+  font-size: 16px;
+  font-align: center;
+  line-height: 1.5;
+  color: red;
+  background-color: lightblue;
+  background-image: url("cssLogo.png");
+  background-size: cover;
+  
+
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  
+  width: 100px;
+  height: 200px;
+  
+  position: relative, static, absolute, fixed, sticky;
+
+*/
+
+:root {
+  --primary-color: rgb(109, 210, 243);
+  --secondary-color: lightgreen;
+}
+
+h1 {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.button1:hover {
+  color: var(--primary-color);
+  
+
+}
+.button1:active {
+  color: var(--secondary-color);
+}
+
+
+.link-repo:visited {
+  color: var(--secondary-color);
+}
+
+
+
