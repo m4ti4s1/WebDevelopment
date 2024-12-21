@@ -1,15 +1,16 @@
 1. Basics 3-4 weeks
     a. HTML 3-4 days
         Semantic elements:
-            + [] Create a properly structured webpage using header, main, nav, footer
-            + [] Use article and section elements appropriately
+            + [x] Create a properly structured webpage using header, main, nav, footer
+                + [] review nav
+            + [x] Use article and section elements appropriately
             + [] Practice with figure, figcaption, and aside
         Forms and validation: 
             + [] Build a form with different input types
             + [] Add HTML5 validation attributes
             + [] Create custom error messages
         Meta tags for SEO:
-            + [] Add essential meta tags (description, viewport)
+            + [x] Add essential meta tags (description, viewport)
             + [] Implement Open Graph tags
             + [] Add proper title and favicon
         
