@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 1fr;
+  grid-template-rows: 100px 2fr 1fr;
+  grid-template-areas: 
+    "header header header header"
+    "nav main main main"
+    "nav footer footer footer";
+    
+  justify-items: center;
+  align-items: center;
+}
+
+.header {
+  background-color: lightgreen;
+  grid-area: header;
+}
+
+.main {
+  background-color: lightcoral;
+  grid-area: main;
+}
+
+.nav {
+  background-color: lightblue;
+  grid-area: nav;
+}
+
+.footer {
+  background-color: aquamarine;
+  grid-area: footer;
+}

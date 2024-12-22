@@ -16,7 +16,7 @@
         
     b. CSS 5-7 days
         Box model:
-            + [] Style elements using margin, padding, border
+            + [x] Style elements using margin, padding, border
             + [] Practice with box-sizing: border-box
             + [] Create card layouts using box model
         Flexbox and Grid:
