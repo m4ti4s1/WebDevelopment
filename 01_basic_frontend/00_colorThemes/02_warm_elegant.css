@@ -1,0 +1,30 @@
+/* Light Theme 2 - Warm Elegant */
+:root {
+  --primary-50: #fdf4ff;
+  --primary-100: #fae8ff;
+  --primary-500: #d946ef;
+  --primary-600: #c026d3;
+  --primary-700: #a21caf;
+  
+  --neutral-50: #fffbf5;
+  --neutral-100: #fef3e7;
+  --neutral-200: #fde7d2;
+  --neutral-700: #78350f;
+  --neutral-800: #451a03;
+  
+  --success-500: #059669;
+  --error-500: #dc2626;
+  --warning-500: #d97706;
+}
+
+/*
+  Light Theme 2: Warm Elegant
+
+  Background: --neutral-50
+  Text: --neutral-800
+  Primary buttons/links: --primary-600
+  Hover states: --primary-700
+  Subtle backgrounds: --neutral-100
+  Borders: --neutral-200
+
+*/

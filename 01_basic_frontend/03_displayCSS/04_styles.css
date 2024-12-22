@@ -1,0 +1,77 @@
+/* Media querys [and] [,]*/
+
+/* Dark Theme 2 - Deep Purple Dark */
+:root {
+  --primary-400: #c084fc;
+  --primary-500: #a855f7;
+  --primary-600: #9333ea;
+  
+  --surface-900: #18082c;
+  --surface-800: #2d1146;
+  --surface-700: #451b6f;
+  --surface-600: #5b2188;
+  --surface-100: #faf5ff;
+  
+  --success-500: #059669;
+  --error-500: #dc2626;
+  --warning-500: #d97706;
+}
+
+body {
+  background-color: var(--surface-900);
+  color: var(--surface-100);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  justify-content: center;
+
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+  margin: auto;
+  width: 90vw;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: 8rem 1fr;
+  grid-template-areas: 
+  "header header" 
+  "author main";
+}
+
+.if-wide {
+  grid-area: author;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.name {
+  color: var(--primary-400);
+  margin: 1rem;
+  text-align: start;
+}
+
+.header {
+  grid-area: header;  
+}
+
+.main {
+  grid-area: main;
+  max-width: 900px;
+}
+
+.author {
+  width: 100%;
+  border-radius: 5%;
+  max-width: 700px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "header"
+      "author"
+      "main";
+  }
+}
