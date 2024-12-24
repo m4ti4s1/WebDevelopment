@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 1rem;
+  gap: 3px;
+}
+
+form div label {
+  font-size: 14px;
+}
+
+form {
+  justify-content: center;
+  align-content: center;
+  background-color: lightblue;
+  padding: 1rem;
+  margin: auto;
+}
+
+
+/* Validation for inputs */
+input {
+  outline: 1px solid gray;
+}
+
+input:user-invalid {
+  outline-color: red;
+}
+
+input:user-valid {
+  outline-color:green;
+}
+
+
+
