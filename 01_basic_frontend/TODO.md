@@ -3,29 +3,27 @@
         Semantic elements:
             + [x] Create a properly structured webpage using header, main, nav, footer
             + [x] Use article and section elements appropriately
-            + [] Practice with figure, figcaption, and aside
-        Forms and validation: 
-            + [] Build a form with different input types
-            + [] Add HTML5 validation attributes
-            + [] Create custom error messages
+            + [] [Practice with figure, figcaption, and aside Forms and validation] 
+            + [x] Build a form with different input types
+            + [] [next Add HTML5 validation attributes]
+            + [] [next Create custom error messages]
         Meta tags for SEO:
             + [x] Add essential meta tags (description, viewport)
-            + [] Implement Open Graph tags
-            + [] Add proper title and favicon
+            + [] [next Implement Open Graph tags]
+            + [] [next Add proper title and favicon]
         
     b. CSS 5-7 days
         Box model:
             + [x] Style elements using margin, padding, border
-            + [] Practice with box-sizing: border-box
-            + [] Create card layouts using box model
+            + [x] Practice with box-sizing: border-box
+            + [x] Create card layouts using box model
         Flexbox and Grid:
-            + [] Build a responsive navigation bar with flexbox
+            + [x] Build a responsive navigation bar with flexbox
             + [] Create a photo gallery with grid
-            + [] Implement a holy grail layout
-        Selectors and specificity:
-            + [] Use different types of selectors (class, id, attribute)
-            + [] Practice combining selectors
-            + [] Understand and use specificity hierarchy
+            + [] [Implement a holy grail layout Selectors and specificity]
+            + [x] Use different types of selectors (class, id, attribute)
+            + [x] Practice combining selectors
+            + [x] Understand and use specificity hierarchy
     c. JavaScript 7-10 days
         ES6+ features:
             + [] Use arrow functions in different scenarios
