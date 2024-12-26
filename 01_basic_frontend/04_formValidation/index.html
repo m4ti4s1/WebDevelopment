@@ -11,16 +11,65 @@
     <form action="/submit" method="post">
       <div class="username-div">
         <label for="username">Username</label>
-        <input required type="text" name="username" id="username" placeholder="username12345">
+        <input required size=20 type="text" name="username" id="username" placeholder="username12345">
       </div>
       
       <div class="password-div">
         <label for="password">Password</label>
         <input required type="password" name="password" id="password" minlength="8" placeholder="userPassword1234">
       </div>
+
+      <div class="email-div">
+        <label for="email">Email</label>
+        <input required type="email" name="email" id="email" minlength="8" placeholder="user@gmail.com">
+        <span id="emailError" style="color: red;"></span>
+      </div>
+
+      <div class="url-div">
+        <label for="url">Web Page</label>
+        <input type="url" name="url" id="url" minlength="8" placeholder="webpage.com">
+      </div>
+
+      <div class="age-div">
+        <label for="age">Age</label>
+        <input required pattern="0-9" size=10 type="number" name="age" id="age" min="18"  max="110">
+      </div>
+      
+      <div class="noneditable-div">
+        <label for="non-editable">Non editable div</label>
+        <input readonly type="text" name="non-editable" id="non-editable" value="Value cannon be changed">
+      </div>
+      
+      <div class="disable-div">
+        <label for="disabled">Disable div</label>
+        <input disabled type="text" name="disabled" id="disabled" value="Invisible value">
+      </div>
+      
+      <div class="multiple-div">
+        <label for="multiple">multiple input div</label>
+        <input multiple type="file" name="multiple" id="multiple" >
+      </div>
+      
+
       <button type="submit">Log in</button>
 
     </form>
+    
+    <script>
+      const emailInput = document.getElementById('email');
+      const emailError = document.getElementById('emailError');
+    
+      emailInput.addEventListener('input', () => {
+        if (emailInput.validity.typeMismatch) {
+          emailInput.setCustomValidity('Please enter a valid email address');
+          emailError.textContent = 'Invalid email format!';
+        } else {
+          emailInput.setCustomValidity('');
+          emailError.textContent = '';
+        }
+      });
+    </script>
   </div> 
+
 </body>
 </html>

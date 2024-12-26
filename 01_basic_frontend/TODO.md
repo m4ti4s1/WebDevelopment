@@ -5,12 +5,12 @@
             + [x] Use article and section elements appropriately
             + [] [Practice with figure, figcaption, and aside Forms and validation] 
             + [x] Build a form with different input types
-            + [] [next Add HTML5 validation attributes]
-            + [] [next Create custom error messages]
+            + [x] Add HTML5 validation attributes
+            + [x] [next Create custom error messages]
         Meta tags for SEO:
             + [x] Add essential meta tags (description, viewport)
             + [] [next Implement Open Graph tags]
-            + [] [next Add proper title and favicon]
+            + [x] [next Add proper title and favicon]
         
     b. CSS 5-7 days
         Box model:
@@ -19,7 +19,7 @@
             + [x] Create card layouts using box model
         Flexbox and Grid:
             + [x] Build a responsive navigation bar with flexbox
-            + [] Create a photo gallery with grid
+            + [x] Create a photo gallery with grid
             + [] [Implement a holy grail layout Selectors and specificity]
             + [x] Use different types of selectors (class, id, attribute)
             + [x] Practice combining selectors
